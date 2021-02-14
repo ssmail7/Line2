@@ -1,8 +1,6 @@
 //*****************************************
 // LineDriver.cpp (Project 3)
-//
 // Written by Steven Smail for COP4530
-//
 //*****************************************
 
 #include <iostream>
