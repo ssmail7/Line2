@@ -1,8 +1,21 @@
-#include <iostream>#include "line.h"using namespace std;int main(){
+//*****************************************
+// LineDriver.cpp (Project 3)
+//
+// Written by Steven Smail for COP4530
+//
+//*****************************************
+
+#include <iostream>
+#include "line.h"
+using namespace std;
+
+int main()
+{
   cout << "\nThis is the LineDriver program.\n"
        << "All lines are in the form of 'y = ax + b'\n";
 
-  // Define the Line objects  Line L(2, 4);
+  // Define the Line objects
+  Line L(2, 4);
   Line K(3, 3);
   Line M(2, 3);
   Line N(2, 4);
@@ -87,4 +100,5 @@
 
   cout << "\nEnd of program" << endl;
 
-  return 0;}
+  return 0;
+}
